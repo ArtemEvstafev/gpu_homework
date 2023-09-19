@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.11)
+cmake_minimum_required(VERSION 3.11)git@gitlab.com:learngpu/materials.git
 project(firstblood)
 
 add_subdirectory(../utils utils)

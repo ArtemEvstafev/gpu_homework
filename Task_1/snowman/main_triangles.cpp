@@ -652,7 +652,7 @@ int main()
 //        auto const shadowHit = closestHit({pos + lightDir * 0.001f, lightDir});
         auto shadowHit = false;
 //        return albedo[i] * (skyColor * 0.1f + lightColor * NL * (shadowHit ? 0.f : 0.7f));
-        vec3 albedo = {10.f, 0.f, 0.f};
+        vec3 albedo = {1.f, 0.f, 0.f};
 //        if(i == 0)
 //            albedo = {0.f, 5.f, 0.f};
         return albedo * (skyColor * 0.1f + lightColor * NL * (shadowHit ? 0.f : 0.7f));

@@ -16,7 +16,7 @@ int main()
             };
     vec3 const albedo[1] =
             {
-            {10.f, 0.f, 0.f}
+            {1.f, 0.f, 0.f}
             };
 
     struct Hit
