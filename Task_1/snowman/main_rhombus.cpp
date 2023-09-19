@@ -82,7 +82,7 @@ int main()
         float const NL = std::max(0.f, dot(norm, lightDir));
 
         auto const shadowHit = closestHit({pos + lightDir * 0.001f, lightDir});
-//        auto shadowHit = false;
+//        auto shadowHit = false;;
         return albedo[i] * (skyColor * 0.1f + lightColor * NL * (shadowHit ? 0.f : 0.7f));
 //        vec3 albedo = {10.f, 0.f, 0.f};
 //        if(i == 0)
